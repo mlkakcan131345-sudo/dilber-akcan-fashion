@@ -1,1 +1,157 @@
 
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#4b1022"><meta name="description" content="Dilber Akçan Fashion — Akhisar, Manisa"><title>Dilber Akçan Fashion</title>
+<style>
+:root{--w:#4b1022;--w2:#6c2339;--c:#f8f2e9;--p:#fffaf4;--g:#c9a66b;--i:#291c1e;--m:#786b67;--l:#e8dccc}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--c);color:var(--i);font-family:Arial,sans-serif}a{color:inherit;text-decoration:none}button,select,input{font:inherit;cursor:pointer}.top{background:#310b19;color:#f9ead6;padding:9px 5vw;font-size:12px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.top a{color:#f5dba9}.head{position:sticky;top:0;z-index:9;background:#fffaf3ee;backdrop-filter:blur(12px);border-bottom:1px solid var(--l);padding:12px 5vw;display:flex;align-items:center;justify-content:space-between;gap:18px}.logo{font:20px Georgia,serif;letter-spacing:.1em;color:var(--w);text-align:center}.logo b{display:block;font-style:italic;font-size:26px;color:var(--g)}.logo small{display:block;font:10px Arial;letter-spacing:.4em;color:var(--g);margin-top:4px}nav{display:flex;gap:22px;font-size:13px}nav a:hover{color:var(--g)}.actions{display:flex;gap:9px;align-items:center}.lang{border:1px solid var(--l);border-radius:20px;background:white;color:var(--w);padding:8px}.btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;border:0;border-radius:30px;padding:13px 20px;background:var(--w);color:white;font-size:13px}.btn.gold{background:var(--g);color:#32101c}.btn.line{background:transparent;color:var(--w);border:1px solid var(--w)}.round{width:38px;height:38px;border:1px solid var(--l);border-radius:50%;background:white;color:var(--w)}.hamb{display:none}.hero{min-height:560px;display:grid;grid-template-columns:1fr 1fr;background:var(--w);color:white}.heroText{padding:85px 9vw;display:flex;flex-direction:column;justify-content:center;background:radial-gradient(circle at 20% 20%,#7c3442,transparent 40%),linear-gradient(120deg,#3b0b1b,#61182e)}.ey{font-size:10px;letter-spacing:.27em;color:var(--g);font-weight:bold}.hero h1{font:clamp(44px,6vw,76px)/1.05 Georgia,serif;margin:18px 0}.hero h1 em{color:#e5c992;font-weight:normal}.hero p{max-width:440px;line-height:1.8;color:#eaded8;font-size:14px}.heroText .btn{align-self:flex-start;margin-top:18px}.heroImg{min-height:560px;background:linear-gradient(90deg,#4b102233,#16090a22),url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1400&q=85') center/cover}.sec{padding:70px 6vw}.intro{text-align:center;margin-bottom:30px}.intro h2{font:clamp(30px,4vw,43px) Georgia,serif;color:var(--w);margin:10px}.intro p{font-size:13px;color:var(--m)}.cols,.goods{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.col{height:330px;position:relative;border-radius:13px;overflow:hidden;background:#5a2737}.col img{width:100%;height:100%;object-fit:cover;transition:.4s}.col:hover img{transform:scale(1.05)}.col:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(transparent,#260914d9)}.col span{position:absolute;z-index:1;bottom:24px;left:8px;right:8px;color:white;text-align:center;font:22px Georgia}.muted{background:#f1e8de}.toolbar{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:22px}.filters{display:flex;gap:7px;flex-wrap:wrap}.filter{border:1px solid var(--l);background:var(--p);border-radius:30px;padding:9px 13px;color:var(--w);font-size:12px}.filter.active{background:var(--w);color:white}.card{background:var(--p);border:1px solid var(--l);border-radius:13px;overflow:hidden;box-shadow:0 15px 40px #32111d10}.card img{width:100%;height:300px;object-fit:cover;display:block}.cardbody{padding:14px}.cardbody small{color:var(--g);font-size:10px}.cardbody h3{font:20px Georgia;color:var(--w);margin:8px 0}.price{font-weight:bold;color:var(--w);font-size:18px}.cardactions{display:flex;gap:7px;margin-top:12px}.cardactions button{flex:1}.services{background:#efe4d7;display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:28px 5vw}.service{text-align:center;padding:18px;border-right:1px solid #d9c8b5}.service b{display:block;font:20px Georgia;color:var(--w);margin-bottom:8px}.service span{font-size:12px;color:var(--m)}.appointment{background:linear-gradient(110deg,#401020,#701f37);color:white;text-align:center;padding:70px 18px}.appointment h2{font:clamp(32px,4vw,46px) Georgia;margin:12px}.appointment p{color:#eadbd7}.about{display:grid;grid-template-columns:1fr 1fr;gap:45px}.about h2{font:36px Georgia;color:var(--w)}.about p{font-size:14px;color:var(--m);line-height:1.8}.lineitem{padding:12px 0;border-bottom:1px solid var(--l);font-size:14px}.lineitem b{display:block;color:var(--w);margin-bottom:4px}.foot{background:#300b19;color:#f5e9dc;padding:35px 6vw}.footinner{display:flex;justify-content:space-between;gap:25px;flex-wrap:wrap}.foot p{color:#d8c7c2;font-size:12px;line-height:1.8}.modal{display:none;position:fixed;inset:0;background:#1d0b12bb;z-index:30;place-items:center;padding:15px}.modal.open{display:grid}.modalbox{position:relative;background:var(--p);width:min(900px,100%);max-height:92vh;overflow:auto;border-radius:14px;display:grid;grid-template-columns:1fr 1fr}.modalbox>img{width:100%;height:100%;min-height:430px;object-fit:cover}.mi{padding:30px}.mi h2{font:31px Georgia;color:var(--w)}.mi p{font-size:13px;line-height:1.7;color:var(--m)}.close{position:absolute;right:9px;top:9px;border:0;border-radius:50%;width:36px;height:36px;background:white;color:var(--w);font-size:20px}.choices{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}.choices button{border:1px solid var(--l);background:white;padding:9px 13px;border-radius:8px}.choices button.sel{border-color:var(--w);background:#f2e5e5}.drawer{position:fixed;z-index:40;right:0;top:0;bottom:0;width:min(420px,100%);background:var(--p);box-shadow:-10px 0 40px #0002;transform:translateX(105%);transition:.3s;padding:23px;overflow:auto}.drawer.open{transform:none}.dhead{display:flex;justify-content:space-between;align-items:center}.cartline{display:flex;gap:12px;padding:13px 0;border-bottom:1px solid var(--l)}.cartline img{width:72px;height:85px;object-fit:cover;border-radius:7px}.cartline small{display:block;color:var(--m);margin:5px 0}.total{display:flex;justify-content:space-between;font-weight:bold;font-size:19px;padding:18px 0}.form{display:grid;gap:10px}.form input,.form textarea{padding:12px;border:1px solid var(--l);border-radius:7px}.note{font-size:11px;color:var(--m);line-height:1.6}.admin{display:none;background:#f4ece4;padding:45px 5vw}.admin.show{display:block}.panel{max-width:850px;background:white;border:1px solid var(--l);border-radius:14px;padding:24px;margin:auto}.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.grid input,.grid select{padding:12px;border:1px solid var(--l);border-radius:7px}.alist{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:15px}.aitem{padding:10px;border:1px solid var(--l);border-radius:8px;font-size:12px}.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#27101a;color:white;padding:12px 18px;border-radius:30px;z-index:60;display:none}.toast.show{display:block}
+@media(max-width:900px){.cols,.goods{grid-template-columns:repeat(2,1fr)}nav{gap:12px}.heroText{padding:60px 6vw}}@media(max-width:640px){.top{font-size:10px}.head{padding:11px 4vw}.hamb{display:inline-block}nav{display:none;position:absolute;top:100%;left:0;right:0;background:#fffaf3;padding:18px;flex-direction:column}nav.show{display:flex}.logo{font-size:15px}.lang{max-width:83px;font-size:10px}.hero{grid-template-columns:1fr}.heroImg{grid-row:1;min-height:350px}.heroText{grid-row:2;padding:48px 8vw}.sec{padding:50px 4vw}.col{height:240px}.col span{font-size:17px}.card img{height:220px}.cardbody{padding:10px}.cardbody h3{font-size:16px}.cardactions{flex-direction:column}.services{grid-template-columns:repeat(2,1fr);padding:18px 3vw}.service{padding:12px 5px}.service b{font-size:16px}.about{grid-template-columns:1fr;gap:15px}.modalbox{grid-template-columns:1fr}.modalbox>img{height:290px;min-height:0}.mi{padding:20px}.grid{grid-template-columns:1fr}.alist{grid-template-columns:1fr 1fr}}
+</style></head><body>
+<div class="top"><span>⌖ Reşat Bey Mahallesi, 589 Sokak, No: 1/2, 45200 Akhisar / Manisa</span><span>Her gün 08.00–20.00　·　<a href="tel:+905413117045">+90 541 311 70 45</a></span></div>
+<header class="head"><a class="logo" href="#"><b>DA</b>DİLBER AKÇAN<small>F A S H I O N</small></a><nav id="nav"><a href="#home" data-t="home">Ana Sayfa</a><a href="#collections" data-t="collections">Koleksiyonlar</a><a href="#products" data-t="models">Modeller</a><a href="#about" data-t="about">Hakkımızda</a><a href="#contact" data-t="contact">İletişim</a></nav><div class="actions"><select class="lang" id="lang" aria-label="Dil"><option value="tr">🇹🇷 TR</option><option value="en">🇬🇧 EN</option><option value="ar">🇸🇦 AR</option><option value="de">🇩🇪 DE</option></select><button class="round" onclick="openCart()" aria-label="Sepet">🛍</button><button class="round hamb" onclick="document.getElementById('nav').classList.toggle('show')" aria-label="Menü">☰</button></div></header>
+<main><section class="hero" id="home"><div class="heroText"><div class="ey">AKHİSAR · MANİSA</div><h1>Hayalinizdeki<br><em>gelinlik,</em><br>sizin hikâyeniz.</h1><p>En özel anlarınıza zarafetle eşlik eden gelinlik, nişanlık ve geleneksel tasarımlarımızı keşfedin.</p><a class="btn gold" href="#collections">Koleksiyonu Keşfet　→</a></div><div class="heroImg" role="img" aria-label="Gelinlik koleksiyonu"></div></section>
+<section class="sec" id="collections"><div class="intro"><div class="ey">DİLBER AKÇAN FASHION</div><h2>Koleksiyonlarımız</h2><p>Özel günleriniz için seçilmiş koleksiyonlar.</p></div><div class="cols" id="cols"></div></section>
+<section class="sec muted" id="products"><div class="intro"><div class="ey">ATÖLYEDEN SEÇKİLER</div><h2>Öne Çıkan Modeller</h2><p>Model detaylarını inceleyin.</p></div><div class="toolbar"><div class="filters" id="filters"></div><span class="note">Fiyatlar yalnızca Euro (€) olarak gösterilir.</span></div><div class="goods" id="goods"></div></section>
+<section class="services"><div class="service"><b>✧ Koleksiyon</b><span>Dört özel kategori</span></div><div class="service"><b>♧ Kiralama</b><span>Satın alma veya kiralama</span></div><div class="service"><b>▦ Randevu</b><span>Prova randevusu</span></div><div class="service"><b>⌖ Akhisar / Manisa</b><span>Mağazamızla iletişim</span></div></section>
+<section class="appointment"><div class="ey">SİZE ÖZEL BİR BULUŞMA</div><h2>Hayalinizdeki modeli<br>birlikte keşfedelim.</h2><p>Randevu ve koleksiyon bilgisi için bize ulaşın.</p><a class="btn gold" href="https://wa.me/905413117045?text=Merhaba%2C%20randevu%20almak%20istiyorum." target="_blank" rel="noopener">WhatsApp ile Randevu →</a></section>
+<section class="sec about" id="about"><div><div class="ey">HİKÂYEMİZ</div><h2>Zarafetin en özel hâli.</h2><p>Dilber Akçan Fashion olarak hayatınızın unutulmaz anlarına eşlik edecek gelinlik, tesettür gelinlik, nişanlık-kınalık ve kaftan-bindallı koleksiyonlarımızı keşfetmenizi bekliyoruz. Modeller ve uygunluk bilgisi için mağazamızla iletişime geçebilirsiniz.</p></div><div id="contact"><div class="ey">BİZE ULAŞIN</div><h2>Mağazamız</h2><div class="lineitem"><b>Adres</b>Reşat Bey Mahallesi, 589 Sokak, No: 1/2, 45200 Akhisar / Manisa</div><div class="lineitem"><b>Telefon / WhatsApp</b><a href="tel:+905413117045">+90 541 311 70 45</a></div><div class="lineitem"><b>Çalışma saatleri</b>Her gün 08.00–20.00</div><p><a class="btn line" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Re%C5%9Fat+Bey+Mahallesi+589+Sokak+No+1%2F2+Akhisar+Manisa">Haritada Gör →</a></p></div></section></main>
+<footer class="foot"><div class="footinner"><div><div class="logo" style="color:white"><b>DA</b>DİLBER AKÇAN<small>F A S H I O N</small></div><p>Hayalinizdeki özel gün için zarafet.</p></div><div><b>İletişim</b><p>Akhisar / Manisa<br>+90 541 311 70 45<br>Her gün 08.00–20.00</p></div><div><b>Hızlı bağlantılar</b><p><a href="#collections">Koleksiyonlar</a><br><a href="#products">Modeller</a><br><a href="#contact">İletişim</a></p><p>© <span id="year"></span> Dilber Akçan Fashion</p></div><div><a href="#admin" onclick="document.getElementById('admin').classList.add('show')">Yönetici girişi</a></div></div></footer>
+<section class="admin" id="admin"><div class="panel">
+<div class="ey">GÜVENLİ YÖNETİCİ ALANI</div><h2>Ürün yönetimi</h2>
+<p class="note">Bu alan Supabase Auth ile giriş yapar. Yalnızca site_admins tablosunda yetkili olan hesap ürünleri yönetebilir.</p>
+<div id="adminLogin">
+<form class="form" onsubmit="adminLogin(event)">
+<input id="adminEmail" type="email" autocomplete="username" required placeholder="Yönetici e-posta adresi">
+<input id="adminPassword" type="password" autocomplete="current-password" required placeholder="Şifre">
+<button class="btn">Güvenli giriş yap</button>
+</form></div>
+<div id="adminWork" style="display:none">
+<div class="lineitem"><b>Oturum</b><span id="adminWho"></span>　<button class="filter" onclick="adminLogout()">Çıkış yap</button></div>
+<h3>Yeni ürün ekle</h3>
+<div class="grid">
+<input id="aName" placeholder="Model adı">
+<select id="aCat"><option>Gelinlik</option><option>Tesettür Gelinlik</option><option>Nişanlık-Kınalık</option><option>Kaftan-Bindallı</option></select>
+<select id="aStatus"><option value="sale">Satılık</option><option value="rental">Kiralık</option></select>
+<input id="aPrice" type="number" min="1" step=".01" placeholder="Fiyat (€)">
+<input id="aSizes" placeholder="Bedenler: 36,38,40">
+<input id="aImage" type="file" accept="image/jpeg,image/png,image/webp,image/avif">
+<input id="aDescription" placeholder="Kısa açıklama">
+</div>
+<p><button class="btn" onclick="saveProduct()">Ürünü kaydet</button></p>
+<h3>Kayıtlı ürünler</h3><div id="alist" class="alist"></div>
+</div><p id="adminMessage" class="note" aria-live="polite"></p>
+</div></section>
+<div class="modal" id="modal" onclick="if(event.target===this)closeModal()"><div class="modalbox"><button class="close" onclick="closeModal()">×</button><img id="mi" alt="Model fotoğrafı"><div class="mi"><div class="ey" id="mc"></div><h2 id="mn"></h2><div class="price" id="mp"></div><p>Modelin güncel beden, stok ve detay bilgileri için mağazamızla iletişime geçebilirsiniz.</p><b>Beden seçimi</b><div class="choices" id="sizes"></div><b>İşlem</b><div class="choices"><button id="buy" onclick="mode='Satılık';syncMode()">Satın al</button><button id="rent" onclick="mode='Kiralık';syncMode()">Kirala</button></div><p class="note">Görseller ve fiyatlar örnek katalog verisidir; gerçek ürün ve fiyatlar işletme tarafından girilmelidir.</p><button class="btn" style="width:100%" onclick="addToCart()">Sepete ekle</button></div></div></div>
+<aside class="drawer" id="drawer"><div class="dhead"><h2 style="font:27px Georgia;color:var(--w)">Sepetim</h2><button class="round" onclick="closeCart()">×</button></div><div id="cartrows"></div><div class="total"><span>Toplam</span><span id="sum">€0</span></div><button class="btn" style="width:100%" onclick="showOrder()">Sipariş bilgilerine geç</button><div id="order" style="display:none"><h3>İletişim bilgileri</h3><form class="form" onsubmit="submitOrder(event)"><input required placeholder="Ad Soyad"><input required type="email" placeholder="E-posta"><input required type="tel" placeholder="Telefon"><input required placeholder="Teslimat adresi"><button class="btn">Sipariş talebi oluştur</button></form><div class="transfer" style="margin-top:18px;padding:16px;border:1px solid var(--l);border-radius:14px;background:#fffaf4">
+<h3 style="margin:0 0 8px;color:var(--w)">Euro havalesi / EFT</h3>
+<p style="margin:0 0 8px">Alıcı: <b>SAMET AKÇAN</b></p>
+<p style="margin:0 0 8px">Banka: <b>Garanti BBVA</b> · Hesap para birimi: <b>EUR</b></p>
+<p style="margin:0 0 12px;word-break:break-all;font-weight:700;letter-spacing:.02em">IBAN: TR95 0006 2000 5100 0009 0783 77</p>
+<button type="button" class="btn line" style="width:100%" onclick="copyIban()">IBAN'ı kopyala</button>
+<p class="note" style="margin:10px 0 0">Havale açıklamasına sipariş sahibinin adını yazın. Ödeme, banka hesabına geçip tarafımızca kontrol edildikten sonra sipariş onaylanır. Lütfen ödeme dekontunu WhatsApp üzerinden iletin.</p>
+</div>
+<p class="note">Bilgilendirme: Bu sayfa şu anda karttan ödeme tahsil etmez. Havale/EFT seçeneğinde ödeme, alıcı hesabında kontrol edilerek manuel onaylanır. Kart ödemesi için banka sanal POS sözleşmesi ve güvenli sunucu entegrasyonu gereklidir.</p></div></aside><div class="toast" id="toast"></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+const C=[['Gelinlik','https://images.unsplash.com/photo-1594552072238-b8a7f1f0a4c5?auto=format&fit=crop&w=700&q=80'],['Tesettür Gelinlik','https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=700&q=80'],['Nişanlık-Kınalık','https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=700&q=80'],['Kaftan-Bindallı','https://images.unsplash.com/photo-1539008835657-9e8e9680c956?auto=format&fit=crop&w=700&q=80']];
+let P=[{id:'1',name:'Gelinlik Modeli 001',cat:C[0][0],price:820,status:'Satılık',sizes:['36','38','40','42'],img:C[0][1]},{id:'2',name:'Gelinlik Modeli 002',cat:C[0][0],price:790,status:'Satılık',sizes:['36','38','40'],img:C[1][1]},{id:'3',name:'Nişanlık Modeli 003',cat:C[2][0],price:480,status:'Kiralık',sizes:['36','38','40','42'],img:C[2][1]},{id:'4',name:'Kaftan Modeli 004',cat:C[3][0],price:730,status:'Satılık',sizes:['38','40','42'],img:C[3][1]}],F='Tümü',cart=[],chosen=null,size='',mode='Satılık';
+const eur=n=>new Intl.NumberFormat('de-DE',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(n);
+function drawCols(){document.getElementById('cols').innerHTML=C.map(x=>`<a class="col" href="#products" onclick="setFilter('${x[0]}')"><img loading="lazy" src="${x[1]}" alt="${x[0]}"><span>${x[0]}</span></a>`).join('')}
+function drawProducts(){document.getElementById('filters').innerHTML=['Tümü',...C.map(x=>x[0])].map(x=>`<button class="filter ${F===x?'active':''}" onclick="setFilter('${x}')">${x}</button>`).join('');let arr=P.filter(x=>F==='Tümü'||x.cat===F);document.getElementById('goods').innerHTML=arr.map(x=>`<article class="card"><img loading="lazy" src="${x.img}" alt="${x.name}"><div class="cardbody"><small>${x.cat}</small><h3>${x.name}</h3><div class="price">${eur(x.price)}</div><div class="cardactions"><button class="btn" onclick="openProduct('${x.id}')">İncele</button><button class="btn line" onclick="openProduct('${x.id}')">Sepete ekle</button></div></div></article>`).join('')||'<p>Bu koleksiyonda henüz model yok.</p>'}
+function setFilter(x){F=x;drawProducts()}
+function openProduct(id){chosen=P.find(x=>x.id===id);size='';mode=chosen.status;document.getElementById('mi').src=chosen.img;document.getElementById('mn').textContent=chosen.name;document.getElementById('mc').textContent=chosen.cat;document.getElementById('mp').textContent=eur(chosen.price);document.getElementById('sizes').innerHTML=chosen.sizes.map(s=>`<button onclick="chooseSize('${s}',this)">${s}</button>`).join('');syncMode();document.getElementById('modal').classList.add('open')}
+function chooseSize(s,b){size=s;document.querySelectorAll('#sizes button').forEach(x=>x.classList.remove('sel'));b.classList.add('sel')}
+function syncMode(){document.getElementById('buy').classList.toggle('sel',mode==='Satılık');document.getElementById('rent').classList.toggle('sel',mode==='Kiralık')}
+function closeModal(){document.getElementById('modal').classList.remove('open')}
+function addToCart(){if(!size){notify('Lütfen beden seçin.');return}cart.push({...chosen,size,mode});closeModal();drawCart();openCart();notify('Ürün sepete eklendi.')}
+function drawCart(){document.getElementById('cartrows').innerHTML=cart.map((x,i)=>`<div class="cartline"><img src="${x.img}" alt=""><div style="flex:1"><b>${x.name}</b><small>Beden ${x.size} · ${x.mode}</small><b>${eur(x.price)}</b></div><button class="round" onclick="removeItem(${i})">×</button></div>`).join('')||'<p class="note">Sepetiniz boş.</p>';document.getElementById('sum').textContent=eur(cart.reduce((a,x)=>a+x.price,0))}
+function removeItem(i){cart.splice(i,1);drawCart()}function openCart(){document.getElementById('drawer').classList.add('open');drawCart()}function closeCart(){document.getElementById('drawer').classList.remove('open')}
+function showOrder(){if(!cart.length){notify('Sepetiniz boş.');return}document.getElementById('order').style.display='block'}
+function copyIban(){const iban='TR9500062000510009078377';if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(iban).then(()=>notify('IBAN kopyalandı.')).catch(()=>notify('IBAN: '+iban))}else{notify('IBAN: '+iban)}}
+function submitOrder(e){e.preventDefault();notify('Sipariş talebiniz alındı. Havale geldikten sonra manuel onaylanacaktır.');e.target.reset();}
+function addModel(){let name=document.getElementById('aName').value.trim(),price=Number(document.getElementById('aPrice').value),img=document.getElementById('aImg').value.trim();if(!name||price<=0||!img.startsWith('https://')){notify('Model adı, Euro fiyatı ve HTTPS görsel bağlantısı gerekli.');return}P.push({id:String(Date.now()),name,cat:document.getElementById('aCat').value,price,status:document.getElementById('aStatus').value,sizes:(document.getElementById('aSizes').value||'36,38,40').split(',').map(x=>x.trim()),img});drawProducts();drawAdmin();notify('Model yalnızca bu önizlemeye eklendi.')}
+function drawAdmin(){document.getElementById('alist').innerHTML=P.map(x=>`<div class="aitem"><b>${x.name}</b><br>${x.cat} · ${eur(x.price)}<br><button class="filter" onclick="delModel('${x.id}')">Kaldır</button></div>`).join('')}
+function delModel(id){P=P.filter(x=>x.id!==id);drawProducts();drawAdmin()}
+function notify(s){let t=document.getElementById('toast');t.textContent=s;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2600)}
+const T={tr:['Ana Sayfa','Koleksiyonlar','Modeller','Hakkımızda','İletişim'],en:['Home','Collections','Models','About us','Contact'],de:['Startseite','Kollektionen','Modelle','Über uns','Kontakt'],ar:['الرئيسية','المجموعات','التصاميم','من نحن','اتصل بنا']};
+document.getElementById('lang').addEventListener('change',e=>{let l=e.target.value;document.documentElement.lang=l;document.body.dir=l==='ar'?'rtl':'ltr';document.querySelectorAll('[data-t]').forEach((el,i)=>el.textContent=T[l][i])});
+document.getElementById('year').textContent=new Date().getFullYear();drawCols();drawProducts();drawAdmin();
+
+// Supabase bağlantısı: publishable key tarayıcıda kullanılmak üzere tasarlanmıştır.
+// Gizli service-role anahtarı bu dosyaya kesinlikle konulmaz.
+const SB_URL='https://tdoqcazkiftyjsbhivkb.supabase.co';
+const SB_KEY='sb_publishable_H8kP3MOeIARxZ1m1vDMr4Q_RtyyYncM';
+const sb=window.supabase.createClient(SB_URL,SB_KEY);
+let dbCollections=[];
+function adminMsg(s){document.getElementById('adminMessage').textContent=s}
+function publicUrl(path){return sb.storage.from('product-media').getPublicUrl(path).data.publicUrl}
+async function loadPublicProducts(){
+  try{
+    const {data:cols,error:ce}=await sb.from('collections').select('id,name').order('sort_order');
+    if(ce) throw ce; dbCollections=cols||[];
+    const {data:rows,error}=await sb.from('products').select('*,product_media(storage_path,media_type,sort_order)').eq('is_published',true).order('sort_order');
+    if(error) throw error;
+    P=(rows||[]).map(r=>({id:r.id,name:r.model_name,cat:dbCollections.find(c=>c.id===r.collection_id)?.name||'Gelinlik',
+      price:Number(r.sale_price_eur||r.rental_price_eur||0),status:r.availability_type==='rental'?'Kiralık':'Satılık',
+      sizes:r.sizes||[],img:r.product_media?.length?publicUrl(r.product_media.sort((a,b)=>a.sort_order-b.sort_order)[0].storage_path):C[0][1]}));
+    drawProducts();
+  }catch(e){console.warn('Ürün kataloğu yüklenemedi:',e.message)}
+}
+async function adminLogin(e){
+ e.preventDefault();adminMsg('Giriş kontrol ediliyor…');
+ const email=document.getElementById('adminEmail').value.trim();
+ const password=document.getElementById('adminPassword').value;
+ const {data,error}=await sb.auth.signInWithPassword({email,password});
+ if(error){adminMsg('Giriş başarısız: '+error.message);return}
+ const {data:admin,error:ae}=await sb.from('site_admins').select('user_id,email').eq('user_id',data.user.id).maybeSingle();
+ if(ae||!admin){await sb.auth.signOut();adminMsg('Bu hesap yönetici olarak yetkilendirilmemiş.');return}
+ document.getElementById('adminLogin').style.display='none';
+ document.getElementById('adminWork').style.display='block';
+ document.getElementById('adminWho').textContent=admin.email;
+ adminMsg('Giriş başarılı. Ürünler veritabanından yükleniyor.');
+ await loadAdminProducts();
+}
+async function adminLogout(){await sb.auth.signOut();document.getElementById('adminWork').style.display='none';document.getElementById('adminLogin').style.display='block';document.getElementById('adminPassword').value='';adminMsg('Oturum kapatıldı.')}
+async function loadAdminProducts(){
+ const {data,error}=await sb.from('products').select('id,model_name,collection_id,availability_type,sale_price_eur,rental_price_eur,is_published').order('created_at',{ascending:false});
+ if(error){adminMsg('Ürünler alınamadı: '+error.message);return}
+ document.getElementById('alist').innerHTML=(data||[]).map(x=>`<div class="aitem"><b>${escapeHtml(x.model_name)}</b><br>${x.is_published?'Yayında':'Taslak'} · €${Number(x.sale_price_eur||x.rental_price_eur||0).toFixed(2)}<br><button class="filter" onclick="togglePublish('${x.id}',${!x.is_published})">${x.is_published?'Yayından kaldır':'Yayınla'}</button> <button class="filter" onclick="deleteProduct('${x.id}')">Sil</button></div>`).join('')||'<p>Henüz ürün eklenmemiş.</p>';
+}
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+async function saveProduct(){
+ const name=document.getElementById('aName').value.trim(), price=Number(document.getElementById('aPrice').value);
+ const cat=document.getElementById('aCat').value, status=document.getElementById('aStatus').value;
+ const sizes=document.getElementById('aSizes').value.split(',').map(x=>x.trim()).filter(Boolean);
+ const file=document.getElementById('aImage').files[0];
+ const collection=dbCollections.find(x=>x.name===cat);
+ if(!name||!price||price<=0||!collection||!file){adminMsg('Model adı, Euro fiyatı, koleksiyon ve ürün görseli gerekli.');return}
+ if(!['image/jpeg','image/png','image/webp','image/avif'].includes(file.type)||file.size>50*1024*1024){adminMsg('Görsel JPEG, PNG, WebP veya AVIF olmalı ve 50 MB sınırını aşmamalı.');return}
+ adminMsg('Ürün kaydediliyor…');
+ const row={collection_id:collection.id,model_name:name,sizes,availability_type:status,
+   sale_price_eur:status==='sale'?price:null,rental_price_eur:status==='rental'?price:null,
+   description:document.getElementById('aDescription').value.trim(),is_published:false};
+ const {data:prod,error}=await sb.from('products').insert(row).select('id').single();
+ if(error){adminMsg('Ürün kaydedilemedi: '+error.message);return}
+ const ext=file.name.split('.').pop().toLowerCase().replace(/[^a-z0-9]/g,'')||'jpg';
+ const path=`${prod.id}/${crypto.randomUUID()}.${ext}`;
+ const {error:up}=await sb.storage.from('product-media').upload(path,file,{contentType:file.type,upsert:false});
+ if(up){await sb.from('products').delete().eq('id',prod.id);adminMsg('Görsel yüklenemedi; ürün kaydı geri alındı: '+up.message);return}
+ const {error:me}=await sb.from('product_media').insert({product_id:prod.id,storage_path:path,media_type:'image',alt_text:name,sort_order:0});
+ if(me){await sb.storage.from('product-media').remove([path]);await sb.from('products').delete().eq('id',prod.id);adminMsg('Görsel kaydı tamamlanamadı; ürün geri alındı: '+me.message);return}
+ ['aName','aPrice','aSizes','aDescription'].forEach(id=>document.getElementById(id).value='');document.getElementById('aImage').value='';
+ adminMsg('Ürün kaydedildi. Yayına almak için aşağıdaki Yayınla düğmesini kullan.');await loadAdminProducts();await loadPublicProducts();
+}
+async function togglePublish(id,value){
+ const {error}=await sb.from('products').update({is_published:value}).eq('id',id);
+ if(error){adminMsg('Yayın durumu değiştirilemedi: '+error.message);return}
+ await loadAdminProducts();await loadPublicProducts();
+}
+async function deleteProduct(id){
+ if(!confirm('Bu ürünü kalıcı olarak silmek istediğinizden emin misiniz?'))return;
+ const {data:media}=await sb.from('product_media').select('storage_path').eq('product_id',id);
+ if(media?.length) await sb.storage.from('product-media').remove(media.map(x=>x.storage_path));
+ const {error}=await sb.from('products').delete().eq('id',id);
+ if(error){adminMsg('Ürün silinemedi: '+error.message);return}
+ adminMsg('Ürün silindi.');await loadAdminProducts();await loadPublicProducts();
+}
+loadPublicProducts();
+
+</script></body></html>
